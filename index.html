@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обо мне</title>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мою страницу!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#hobbies">Мои хобби</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#feedback">Обратная связь</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Обо мне</h2>
+            <img src="profile.jpg" alt="Мое фото" width="200">
+            <p>Меня зовут <strong>Мухаметов Степан</strong>. Группа 241-325 </p>
+            <p>Студент МосПолитеха</p>
+            <blockquote>
+                <p><q>Работать нужно не 8 часов в день, а головой</q></p>
+                <cite>— Стив Джопс</cite>
+            </blockquote>
+        </section>
+
+        <section id="hobbies">
+            <h2>Мои хобби</h2>
+            <ul>
+                <li>Программирование</li>
+                <li>Спорт</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Контакты</h2>
+
+        </section>
+
+        <section id="feedback">
+            <h2>Обратная связь</h2>
+            <form action="/submit" method="post">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p> 2025 Мухаметов Степан </p>
+    </footer>
+</body>
+</html>
